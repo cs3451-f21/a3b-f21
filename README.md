@@ -117,7 +117,7 @@ NOTE: all of the images here are generated with the parameters `super(div, 500, 
 
 Below are the images that your program should generate for the sample scenes, when you press the keys "1234567890-=". No scene is generated when the program starts, you will just see a light yellow canvas. 
 
-<img src="scene1.png" width="100"><img src="scene2.png" width="100"><img src="scene3.png" width="100"><img src="scene4.png" width="100"><img src="scene5.png" width="100"><img src="scene6.png" width="100"><img src="scene7.png" width="100"><img src="scene8.png" width="100"><img src="scene9.png" width="100"><img src="scene0.png" width="100"><img src="scene-.png" width="100"><img src="scene=.png" width="100">
+<img src="scene1.png" width="100"> <img src="scene2.png" width="100"> <img src="scene3.png" width="100"> <img src="scene4.png" width="100"> <img src="scene5.png" width="100"> <img src="scene6.png" width="100"> <img src="scene7.png" width="100"> <img src="scene8.png" width="100"> <img src="scene9.png" width="100"> <img src="scene0.png" width="100"> <img src="scene-.png" width="100"> <img src="scene=.png" width="100">
 
 (Note: these and other images, are store in full resolution in the project, if you would like to examine them closer.)
 
