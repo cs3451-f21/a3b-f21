@@ -156,7 +156,9 @@ You should only generate one reflected ray per incoming ray, even if there are d
 Here is this images from above, stating with no distribution and continuing with jittered distributions above) (these would be generated with "g=", "jg=", "wjg=", "ejg=", "rjg=" and "ujg="):
 
 <img src="three-spheres-g.png" width="200"> <img src="three-spheres-jg.png" width="200"> <img src="three-spheres-wjg.png" width="200"> <img src="three-spheres-ejg.png" width="200"> <img src="three-spheres-rjg.png" width="200"> <img src="three-spheres-ujg.png" width="200"> 
+
 Finally, here is a high quality "pjg=" run at full resolution:
+
 <img src="3-sphere-refl.png" width="400">
 
 #### Submission
