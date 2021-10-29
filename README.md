@@ -117,24 +117,13 @@ NOTE: all of the images here are generated with the parameters `super(div, 500, 
 
 Below are the images that your program should generate for the sample scenes, when you press the keys "1234567890-=". No scene is generated when the program starts, you will just see a light yellow canvas. 
 
-<img src="scene1.png" width="100"> <img src="scene2.png" width="100"> <img src="scene3.png" width="100"> <img src="scene4.png" width="100"> <img src="scene5.png" width="100"> <img src="scene6.png" width="100"> <img src="scene7.png" width="100"> <img src="scene8.png" width="100"> <img src="scene9.png" width="100"> <img src="scene0.png" width="100"> <img src="scene-.png" width="100"> <img src="scene=.png" width="100">
+<img src="scene1.png" width="200"> <img src="scene2.png" width="200"> <img src="scene3.png" width="200"> <img src="scene4.png" width="200"> <img src="scene5.png" width="200"> <img src="scene6.png" width="200"> <img src="scene7.png" width="200"> <img src="scene8.png" width="200"> <img src="scene9.png" width="200"> <img src="scene0.png" width="200"> <img src="scene-.png" width="200"> <img src="scene=.png" width="200">
 
 (Note: these and other images, are store in full resolution in the project, if you would like to examine them closer.)
 
 Each of these scenes will be slightly improved if you turn on supersampling before rendering them, which performs anti-aliasing, soft shadows, and area light specular highlights.  Because you will shoot and average together multiple slightly different rays per pixel, the silhouettes of objects will blend together more cleanly instead of showing stair-steps, the shadows will be smoother, and the specular highlights will fill in. To get these anti-aliased images, you should type the character "r" before rendering the given scene, which sets the sample level to 4, and type the character "j" to turn on jittering.
 
-<img src="scene1-rj.png" width="100">
-<img src="scene2-rj.png" width="100">
-<img src="scene3-rj.png" width="100">
-<img src="scene4-rj.png" width="100">
-<img src="scene5-rj.png" width="100">
-<img src="scene6-rj.png" width="100">
-<img src="scene7-rj.png" width="100">
-<img src="scene8-rj.png" width="100">
-<img src="scene9-rj.png" width="100">
-<img src="scene0-rj.png" width="100">
-<img src="scene--rj.png" width="100">
-<img src="scene=-rj.png" width="100">
+<img src="scene1-rj.png" width="200"> <img src="scene2-rj.png" width="200"> <img src="scene3-rj.png" width="200"> <img src="scene4-rj.png" width="200"> <img src="scene5-rj.png" width="200"> <img src="scene6-rj.png" width="200"> <img src="scene7-rj.png" width="200"> <img src="scene8-rj.png" width="200"> <img src="scene9-rj.png" width="200"> <img src="scene0-rj.png" width="200"> <img src="scene--rj.png" width="200"> <img src="scene=-rj.png" width="200">
 
 If we zoom in on the final scene, we can see the antialiasing on the sphere edges, the area shadows (combined with the sharp point shadow) and the highlights from the area and point light.
 
@@ -142,19 +131,11 @@ If we zoom in on the final scene, we can see the antialiasing on the sphere edge
 
 Here is this final image, with various levels of antialiasing (qweru) and non-jittered distributions:
 
-<img src="three-spheres.png" width="100">
-<img src="three-spheres-w.png" width="100">
-<img src="three-spheres-e.png" width="100">
-<img src="three-spheres-r.png" width="100">
-<img src="three-spheres-u.png" width="100">
+<img src="three-spheres.png" width="200"> <img src="three-spheres-w.png" width="200"> <img src="three-spheres-e.png" width="200"> <img src="three-spheres-r.png" width="200"> <img src="three-spheres-u.png" width="200">
 
 Here is this same final image, with jittered distributions:
 
-<img src="three-spheres-j.png" width="100">
-<img src="three-spheres-wj.png" width="100">
-<img src="three-spheres-ej.png" width="100">
-<img src="three-spheres-rj.png" width="100">
-<img src="three-spheres-uj.png" width="100">
+<img src="three-spheres-j.png" width="200"> <img src="three-spheres-wj.png" width="200"> <img src="three-spheres-ej.png" width="200"> <img src="three-spheres-rj.png" width="200"> <img src="three-spheres-uj.png" width="200">
 
 Especially without only 1 ray, or with a small number of rays, you can see very dramatic differences between the two, with the results getting better as the number of rays increases.
 
@@ -174,13 +155,7 @@ You should only generate one reflected ray per incoming ray, even if there are d
 
 Here is this images from above, stating with no distribution and continuing with jittered distributions above) (these would be generated with "g=", "jg=", "wjg=", "ejg=", "rjg=" and "ujg="):
 
-<img src="three-spheres-g.png" width="100">
-<img src="three-spheres-jg.png" width="100">
-<img src="three-spheres-wjg.png" width="100">
-<img src="three-spheres-ejg.png" width="100">
-<img src="three-spheres-rjg.png" width="100">
-<img src="three-spheres-ujg.png" width="100">
-
+<img src="three-spheres-g.png" width="200"> <img src="three-spheres-jg.png" width="200"> <img src="three-spheres-wjg.png" width="200"> <img src="three-spheres-ejg.png" width="200"> <img src="three-spheres-rjg.png" width="200"> <img src="three-spheres-ujg.png" width="200"> 
 Finally, here is a high quality "pjg=" run at full resolution:
 <img src="3-sphere-refl.png" width="400">
 
