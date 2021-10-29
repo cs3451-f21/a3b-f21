@@ -116,20 +116,8 @@ The three new optional parameters are used for the depth of field extra credit p
 NOTE: all of the images here are generated with the parameters `super(div, 500, 600, 250, 300)` in the constructor, except the final high quality renders at the bottom.
 
 Below are the images that your program should generate for the sample scenes, when you press the keys "1234567890-=". No scene is generated when the program starts, you will just see a light yellow canvas. 
-<ul style="display: flex; flex-wrap: wrap; list-style: none;">
-<li> style="<img src="scene1.png" width="100"></li>
-<li><img src="scene2.png" width="100"></li>
-<li><img src="scene3.png" width="100"></li>
-<li><img src="scene4.png" width="100"></li>
-<li><img src="scene5.png" width="100"></li>
-<li><img src="scene6.png" width="100"></li>
-<li><img src="scene7.png" width="100"></li>
-<li><img src="scene8.png" width="100"></li>
-<li><img src="scene9.png" width="100"></li>
-<li><img src="scene0.png" width="100"></li>
-<li><img src="scene-.png" width="100"></li>
-<li><img src="scene=.png" width="100">
-<ul>
+
+<img src="scene1.png" width="100"><img src="scene2.png" width="100"><img src="scene3.png" width="100"><img src="scene4.png" width="100"><img src="scene5.png" width="100"><img src="scene6.png" width="100"><img src="scene7.png" width="100"><img src="scene8.png" width="100"><img src="scene9.png" width="100"><img src="scene0.png" width="100"><img src="scene-.png" width="100"><img src="scene=.png" width="100">
 
 (Note: these and other images, are store in full resolution in the project, if you would like to examine them closer.)
 
