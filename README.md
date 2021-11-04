@@ -141,7 +141,7 @@ Especially without only 1 ray, or with a small number of rays, you can see very 
 
 # Submission
 
-In addition to your code, you should generate an image using the command "pk=" at a full resolution of 500x600.  Name this file "submission-<your-gt-email-id>.png" and include it in the top level folder.
+In addition to your code, you should generate an image using the command "pj=" at a full resolution of 500x600.  Name this file "submission-<your-gt-email-id>.png" and include it in the top level folder.
 
 # Optional Components
 
